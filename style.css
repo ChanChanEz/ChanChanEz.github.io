@@ -56,7 +56,8 @@ a{
 }
 
 .about{
-    background-image: url(nara_minum.png);
+    /* background-image: url(nara_minum.png); */
+    background-color: purple;
     background-repeat:no-repeat;
     background-size:100%;
     border-radius: 25px;
