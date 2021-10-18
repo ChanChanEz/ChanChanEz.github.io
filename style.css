@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+#fade{
+    display:none;
+}
+
+a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.title{
+    /* background-color: #27594b; */
+    padding: 20px;
+    padding-left: 10%;
+}
+
+.title p{
+    font-size: 2vmax;
+    /* padding-left: 10%; */
+    color: black;
+    /* border: 5px dotted red; */
+}
+
+.anchors{
+    /* background-color: black; */
+    border-top:     2px black solid;
+    border-bottom:  2px black solid;
+    margin: 0 10px 0 10px; 
+}
+
+.anchors a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 5px;
+    font-size: 1.5vmax;
+}
+
+.anchors>ul{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.anchors>ul>li{
+    list-style: none;
+    flex: 1;
+}
+
+.about{
+    background-image: url(nara_minum.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    border-radius: 25px;
+    margin: 30px 25% 50px 25%;
+}
+
+.about>p{
+    text-align: center;
+    color: red;
+    font-size: 2vmax;
+    padding: 30px 30px 100px 30px;
+}
+
+@media (max-width: 850px){
+    .anchors>ul{
+        display: block;
+    }
+
+    .anchors a{
+        font-size: 3vmax;
+    }
+
+    .title{
+        padding: 2vmax;
+        text-align: center;
+    }
+
+    .title p{
+        font-size: 4vmax;
+    }
+}
