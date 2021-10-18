@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $("div.title").fadeIn(1300);
     $("div.anchors").fadeIn(1500);
     $("div.about").fadeIn(1700);
     
