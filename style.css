@@ -41,7 +41,7 @@ a{
     color: black;
     display: block;
     padding: 10px 5px;
-    font-size: 1.5vmax;
+    font-size: 2.5vmax;
 }
 
 .anchors>ul{
@@ -57,18 +57,48 @@ a{
 
 .about{
     /* background-image: url(nara_minum.png); */
-    background-color: purple;
+    background-color: black;
     background-repeat:no-repeat;
     background-size:100%;
     border-radius: 25px;
-    margin: 30px 25% 50px 25%;
+    margin: 30px 20% 30px 20%;
+    /* border: red dotted 5px; */
 }
 
 .about>p{
     text-align: center;
-    color: red;
+    color: white;
     font-size: 2vmax;
     padding: 30px 30px 100px 30px;
+}
+
+.container-ButtonLinks{
+    /* border: red 5px dotted; */
+    margin: 20px 20% 20px 20%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 2vmax;
+}
+
+/* .container-ButtonLinks p{
+    font-family: Helvetica, sans-serif;
+} */
+
+.ButtonLinks{
+    background-color: lightpink;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 30%;
+    margin: 5px; 
+}
+
+.ButtonLinks>a{
+    color: white;
+}
+
+.ButtonLinks:nth-child(1){
+    background-color: #0077b5;
 }
 
 @media (max-width: 850px){
@@ -87,5 +117,23 @@ a{
 
     .title p{
         font-size: 4vmax;
+    }
+
+    .about{
+        margin: 30px 5% 30px 5%;
+        /* border: red dotted 5px; */
+    }
+
+    .container-ButtonLinks{
+        margin: 10px 5% 10px 5%;
+    }
+
+    .ButtonLinks{
+        margin: 5px;
+        flex: 100%;
+    }
+
+    .ButtonLinks>a{
+        font-size: 2.5vmax;
     }
 }
