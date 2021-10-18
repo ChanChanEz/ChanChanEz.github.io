@@ -93,7 +93,7 @@ a{
     margin: 5px; 
 }
 
-.ButtonLinks>a{
+.ButtonLinks>p{
     color: white;
 }
 
@@ -133,7 +133,7 @@ a{
         flex: 100%;
     }
 
-    .ButtonLinks>a{
+    .ButtonLinks>p{
         font-size: 2.5vmax;
     }
 }
