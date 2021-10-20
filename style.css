@@ -103,7 +103,7 @@ a{
     background-color: #0077b5;
 }
 
-@media (max-width: 850px), (max-height: 850px){
+@media (max-width: 850px){
     .anchors{
         position: static;
         margin: 0 0 0 0;
