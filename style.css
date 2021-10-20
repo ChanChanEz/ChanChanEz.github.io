@@ -21,7 +21,7 @@ a{
 }
 
 .title p{
-    font-size: 2vmax;
+    font-size: 1.5vmax;
     /* padding-left: 10%; */
     color: black;
     /* border: 5px dotted red; */
@@ -31,7 +31,11 @@ a{
     /* background-color: black; */
     border-top:     2px black solid;
     border-bottom:  2px black solid;
+    background-color: white;
     margin: 0 10px 0 10px; 
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .anchors a{
@@ -40,7 +44,7 @@ a{
     color: black;
     display: block;
     padding: 10px 5px;
-    font-size: 2.5vmax;
+    font-size: 1.7vmax;
 }
 
 .anchors>ul{
@@ -60,24 +64,24 @@ a{
     background-repeat:no-repeat;
     background-size:100%;
     border-radius: 25px;
-    margin: 30px 20% 30px 20%;
+    margin: 30px 30% 30px 30%;
     /* border: red dotted 5px; */
 }
 
 .about>p{
     text-align: center;
     color: white;
-    font-size: 2vmax;
+    font-size: 1.3vmax;
     padding: 30px 30px 100px 30px;
 }
 
 .container-ButtonLinks{
     /* border: red 5px dotted; */
-    margin: 20px 20% 20px 20%;
+    margin: 20px 30% 20px 30%;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 2vmax;
+    font-size: 1.5vmax;
 }
 
 /* .container-ButtonLinks p{
@@ -87,22 +91,26 @@ a{
 .ButtonLinks{
     background-color: lightpink;
     padding: 30px;
-    border-radius: 10px;
-    flex: 30%;
+    border-radius: 100px;
+    flex: 40%;
     margin: 5px; 
 }
 .ButtonLinks>p{
-    color: white;
+    color: black;
 }
 
 .ButtonLinks:nth-child(1){
     background-color: #0077b5;
 }
 
-@media (max-width: 850px){
-    .anchors>ul{
-        display: block;
+@media (max-width: 850px), (max-height: 850px){
+    .anchors{
+        position: static;
+        margin: 0 0 0 0;
     }
+    /* .anchors>ul{
+        display: block;
+    } */
 
     .anchors a{
         font-size: 3vmax;
@@ -120,6 +128,10 @@ a{
     .about{
         margin: 30px 5% 30px 5%;
         /* border: red dotted 5px; */
+    }
+
+    .about>p{
+        font-size: 2vmax;
     }
 
     .container-ButtonLinks{
