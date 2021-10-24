@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 jQuery(document).ready(function($){ 
     $('.about').css({
-        'margin-top' : $('.anchors').height() * 1.2
+        'margin-top' : $('.anchors').height() * 1.2 + 20
     });
 });
 

@@ -9,6 +9,10 @@
     display:none;
 }
 
+#contentid{
+    display:none;
+}
+
 a{
     list-style: none;
     text-decoration: none;
@@ -75,6 +79,25 @@ a{
     padding: 30px 30px 100px 30px;
 }
 
+.contact{
+    /* background-image: url(nara_minum.png); */
+    /* background-color: black; */
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+    background-repeat:no-repeat;
+    background-size:100%;
+    margin: 30px 30% 30px 30%;
+
+}
+
+.contact>p{
+    /* text-align: center; */
+    color: black;
+    font-size: 1.1vmax;
+    padding: 30px 30px 30px 30px;
+}
+
+
 .container-ButtonLinks{
     /* border: red 5px dotted; */
     margin: 20px 30% 20px 30%;
@@ -89,21 +112,25 @@ a{
 } */
 
 .ButtonLinks{
-    background-color: lightpink;
+    background-color: black;
     padding: 30px;
     border-radius: 100px;
     flex: 40%;
     margin: 5px; 
 }
 .ButtonLinks>p{
-    color: black;
+    color: white;
 }
 
 .ButtonLinks:nth-child(1){
     background-color: #0077b5;
 }
 
-@media (max-width: 850px){
+.ButtonLinks:nth-child(1)>p{
+    color: black;
+}
+
+@media (max-width: 1100px){
     .anchors{
         position: static;
         margin: 0 0 0 0;
@@ -131,6 +158,15 @@ a{
     }
 
     .about>p{
+        font-size: 2vmax;
+    }
+
+    .contact{
+        margin: 30px 5% 30px 5%;
+        /* border: red dotted 5px; */
+    }
+
+    .contact>p{
         font-size: 2vmax;
     }
 
