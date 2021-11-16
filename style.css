@@ -87,6 +87,7 @@ a{
     color: black;
     font-size: 1.1vmax;
     padding: 30px 30px 30px 30px;
+    text-align: center;
 }
 
 
@@ -115,6 +116,44 @@ a{
 
 .ButtonLinks:nth-child(1)>p{
     color: black;
+}
+
+.porto{
+    /* background-color: black; */
+    background-repeat:no-repeat;
+    background-size:100%;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+    margin: 30px 30% 30px 30%;
+}
+
+.porto a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.porto>p{
+    color: black;
+    font-size: 1.5vmax;
+    padding: 0 30px 30px 30px;
+    text-align: center;
+}
+
+.porto img{
+    max-width:  100%;
+    max-height: 100%;
+    padding: 30px 30px 30px 30px;
+}
+
+.porto-content{
+    border-left: black 5px solid;
+    border-right: black 5px solid;
+    margin: 10px 0 30px 0;
+}
+
+.porto-content>p{
+    font-size: 1.1vmax;
+    padding-left: 10px;
 }
 
 @media (max-width: 1100px){
@@ -162,5 +201,17 @@ a{
     }
     .ButtonLinks>p{
         font-size: 2.5vmax;
+    }
+
+    .porto{
+        margin: 30px 5% 30px 5%;
+    }
+
+    .porto>p{
+        font-size: 2vmax;
+    }
+
+    .porto-content p{
+        font-size: 2vmax;
     }
 }
