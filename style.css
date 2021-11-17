@@ -123,8 +123,8 @@ a{
     background-repeat:no-repeat;
     background-size:100%;
     border-top: black 5px solid;
-    border-bottom: black 5px solid;
-    margin: 30px 30% 30px 30%;
+    /* border-bottom: black 5px solid; */
+    margin: 30px 10% 30px 10%;
 }
 
 .porto a{
@@ -143,17 +143,22 @@ a{
     max-width:  100%;
     max-height: 100%;
     padding: 30px 30px 30px 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .porto-content{
-    border-left: black 5px solid;
-    border-right: black 5px solid;
+    /* border-left: black 5px solid;
+    border-right: black 5px solid; */
     margin: 10px 0 30px 0;
+    background-color: gray;
 }
 
 .porto-content>p{
     font-size: 1.1vmax;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding: 30px 30px 30px 30px;
 }
 
 @media (max-width: 1100px){
